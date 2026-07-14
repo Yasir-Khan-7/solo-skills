@@ -70,6 +70,7 @@ Because these follow the open SKILL.md standard, they also drop into Codex CLI (
 | Skill | Solves | Trigger phrases |
 |-------|--------|-----------------|
 | [`verifying-sources`](./skills/verifying-sources/) | Web search results get treated as facts. Traces every load-bearing claim back to the party that owns it, kills stale and circular corroboration, and grades each claim Confirmed / Supported / Unverified / False. | _"verify this", "is that actually true", "fact-check these results", "check the sources"_ |
+| [`fetching-and-verifying`](./skills/fetching-and-verifying/) | Data pulled from the internet gets used without anyone checking it is the right data. Quarantines every fetch, forces a look against a written claim, and refuses to ship anything unreviewed. Also proves a cited sentence actually exists on the page you cited. | _"fetch these images", "download the data", "cite a source", "verify what the search returned"_ |
 | _your skill here_ | _..._ | _..._ |
 
 > Keep this table current — every merged skill gets a row.
